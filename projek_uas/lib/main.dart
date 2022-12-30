@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_uas/Homepage.dart';
 import 'AddTodo.dart';
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  AddTodoPage(),
+      home:  HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
